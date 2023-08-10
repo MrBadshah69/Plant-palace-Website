@@ -517,6 +517,7 @@ section {
 .contact .row form .inputBox textarea {
   width: 100%;
   border-bottom: .1rem solid rgba(0, 0, 0, .3);
+  border-radius: 5px;
   padding: 1rem 0;
   margin: 1.5rem 0;
   font-size: 1.7rem;

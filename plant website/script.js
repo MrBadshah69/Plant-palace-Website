@@ -40,29 +40,29 @@ var swiper = new Swiper(".home-slider", {
     loop:true,
 });
 
-// let countDate = new Date('August 30, 2023 00:00:00').getTime();
+let countDate = new Date('August 30, 2024 00:00:00').getTime();
 
-// function countDown() {
-//     let now = new Date().getTime();
+function countDown() {
+    let now = new Date().getTime();
 
-//     let gap = countDate - now;
+    let gap = countDate - now;
 
-//     const second = 1000;
-//     const minute = second * 60;
-//     const hour = minute * 60;
-//     const day = hour * 24;
+    const second = 1000;
+    const minute = second * 60;
+    const hour = minute * 60;
+    const day = hour * 24;
 
-//     const d = Math.floor(gap / day);
-//     const h = Math.floor((gap % day) / hour);
-//     const m = Math.floor((gap % hour) / minute);
-//     const s = Math.floor((gap % minute) / second);
+    const d = Math.floor(gap / day);
+    const h = Math.floor((gap % day) / hour);
+    const m = Math.floor((gap % hour) / minute);
+    const s = Math.floor((gap % minute) / second);
 
-//     document.getElementById('day').innerText = d;
-//     document.getElementById('hour').innerText = h;
-//     document.getElementById('minute').innerText = m;
-//     document.getElementById('second').innerText = s;
-// }
+    document.getElementById('day').innerText = d;
+    document.getElementById('hour').innerText = h;
+    document.getElementById('minute').innerText = m;
+    document.getElementById('second').innerText = s;
+}
 
-// setInterval(function() {
-//     countDown();
-// }, 1000);
+setInterval(function() {
+    countDown();
+}, 1000);
